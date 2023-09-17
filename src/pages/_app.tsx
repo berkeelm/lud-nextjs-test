@@ -4,10 +4,10 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { Toaster } from 'react-hot-toast'
 import MainApp from '../components/MainApp'
-import '../../public/css/vendor.css'
-import '../../public/css/plugins.css'
-import '../../public/css/icons.css'
-import '../../public/css/style.css'
+// import '../../public/css/vendor.css'
+// import '../../public/css/plugins.css'
+// import '../../public/css/icons.css'
+// import '../../public/css/style.css'
 // import '../../public/js/jquery-3.7.0.min.js'
 // import '../../public/js/vendors.js'
 // import '../../public/js/plugins.js'
@@ -38,7 +38,10 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             <script src="/js/vendors.js"></script>
             <script src="/js/plugins.js"></script>
             <script src="/js/main.js"></script>
-
+            <link rel="stylesheet" href="/css/vendor.css" />
+            <link rel="stylesheet" href="/css/plugins.css" />
+            <link rel="stylesheet" href="/css/icons.css" />
+            <link rel="stylesheet" href="/css/style.css" />
             <Provider store={store}>
                 <Toaster
                     position="bottom-right"

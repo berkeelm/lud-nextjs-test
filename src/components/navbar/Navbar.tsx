@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import AuthMenu from "./AuthMenu";
 import Logo from "./Logo";
 import NavList from "./NavList";
-
+import menuIcon from '../../assets/images/menu.png'
 const NavBar = () => {
     const openMenu = () => {
         $("body").removeClass("menu-is-closed").addClass("menu-is-opened");
@@ -69,7 +69,7 @@ const NavBar = () => {
                     <ul className="nav">
                         <li>
                             <div onClick={openMenu} className="menu_btn">
-                                <img src="img/icon/menu.png" alt="" />
+                                <img src={menuIcon.src} alt="" />
                             </div>
                         </li>
                     </ul>

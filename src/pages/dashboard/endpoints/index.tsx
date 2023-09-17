@@ -190,7 +190,7 @@ const EndpointsPage = () => {
                                                             </pre>
                                                         </div>
                                                         <div className="alert alert-icon alert-warning" role="alert">
-                                                            <i className="ri-information-fill mr-2" aria-hidden="true"></i> To more information please visit <a href="/docs#/docs" target="_blank" rel="noopener noreferrer"><b>documentation</b></a> pages.
+                                                            <i className="ri-information-fill mr-2" aria-hidden="true"></i> To more information please visit <a href="/docs" target="_blank" rel="noopener noreferrer"><b>documentation</b></a> pages.
                                                         </div>
                                                         {
                                                             alert ?
